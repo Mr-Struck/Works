@@ -1,0 +1,104 @@
+    form{
+        background-image: url(https://i.pinimg.com/originals/2a/b0/59/2ab0592de1570ff8061c4d7261e504ad.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 200px 150px;
+        text-align: center;
+        border: 3px solid #a9a9a9;
+        padding: 30px;
+        background-color: #dcdcdc;
+        margin-top: 30px;
+        margin-left: 65px;
+        margin-right: 65px;
+        margin-bottom: 30px;
+    }
+    fieldset{
+        text-align: left;
+        border: 2px solid #a9a9a9;
+        padding: 20px;
+        background-image: url(https://wonderfulengineering.com/wp-content/uploads/2014/09/white-wallpapers-33.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    legend{
+        font-size: 18px;
+        font-style: italic;
+        padding: 10px;
+    }
+    input{
+        font-family: Artifika;
+        border: 1px solid red;/*#a9a9a9;*/
+        padding: 5px 5px;
+    }
+    input:focus{
+        background-color: #dcdcdc;
+    }
+    select {
+        font-family: Artifika;
+        border: 1px solid red;/*#a9a9a9;*/
+        padding: 5px 5px;
+    }
+    ul{
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: #dcdcdc;
+       font-style: italic;
+       font-weight: normal;
+    }
+    li{
+       display: inline;
+       float: left;
+    }
+    li a{
+       display: block;
+       color: #F0FFF0;
+       font-size: 20px;
+       text-decoration: none;
+       padding: 10px;
+       background-color: #778899;
+       border-right: 1px solid white; 
+       transition-duration: 0.3s;
+    }
+    li a:hover:not(.active) {
+       background-color: #5F9EA0;
+    }
+    .active{
+       background-color: #4682B4;
+    }
+    h1{
+        font-size: 260%;
+        color: #F0FFFF;
+        text-shadow: 2px 4px 5px #b0e0e6;
+    }
+    h5{
+        color: #4169e1;
+        text-align: center;
+    }
+    h6{
+        text-align: center;
+        font-weight: normal;
+        font-style: italic;
+        color: #696969;
+    }
+    #button{
+        text-align: center;
+        font-family:Artifika;
+        transition-duration: 0.4s;
+        padding: 6px 10px;
+        background-color: grey;
+        text-decoration: none;
+        border: 2px solid grey;
+        font-size: 20px;
+    }
+    #button:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        background-color: #e6e6fa;
+    }
+    address{
+        font-size: 12pt;
+        color: black;
+        word-spacing: 5px;
+    }
