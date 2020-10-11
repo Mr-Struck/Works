@@ -1,0 +1,106 @@
+body{
+    font-family: "Alata";
+    margin: 0;
+    background-color: rgba(209,222,205,0.5);
+  }
+  h1{
+    color: #111;
+    font-size: 250%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  h3{
+    color: #222;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px;
+  }
+  #pic{
+    padding: 80px 50px 80px 80px;
+    background-image: url(https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+  }
+  .left{
+    background-color: white;
+    border: 1px solid #ffe;
+    border-radius: 12px;
+    width: 20%;
+    margin: 20px;
+    padding: 0px 15px;
+  }
+  .right{
+    background-color: white;
+    border: 1px solid #ffe;
+    border-radius: 12px;
+    width: 70%;
+    margin: 20px;
+    padding: 0px 20px;
+    float: right;
+  }
+  progress{
+    width: 90%;
+  }
+  ul{
+    list-style-type: none;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: sticky;
+    top: 0;
+  }
+  li{
+    float: left;
+  }
+  li a{
+    display: block;
+    font-size: 18px;
+    color: #222;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    transition: 0.2s;
+  }
+  li a:hover{
+    color: #222;
+    background-color: #61a0d9;
+  }
+  .active{
+    background-color: #9fc5e8;
+  }
+  .blink{
+    color: #61a0d9;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  .blink:hover{
+    color: #9fc5e8;
+  }
+  .alink{
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  .alink:hover{
+    font-size: 36px;
+  }
+  .box{
+    font-family: "Alata";
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: #ddd;
+  }
+  address{
+    font-style: normal;
+    text-align: center;
+  }
