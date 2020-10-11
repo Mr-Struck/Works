@@ -1,0 +1,130 @@
+<style>
+    body{
+        background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/03/vintage-backgrounds-17559-18119-hd-wallpapers.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    select {
+        padding: 6px 10px;
+        border: 1px solid chocolate;
+        font-family: "Artifika";
+        font-weight: normal;
+    }
+    legend{
+        background-color: chocolate;
+        border: 2px solid black;
+        border-radius: 12px;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    fieldset{
+        margin: 20px;
+        border-color: crimson;
+        background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/03/vintage-backgrounds-17559-18119-hd-wallpapers.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    input{
+        padding: 5px 5px;
+        border: 1px solid chocolate;
+        font-family: "Artifika";
+        font-weight: normal;
+    }
+    input:focus{
+        background-color: bisque;
+    }
+    a{
+        text-decoration: none;
+        color: crimson;
+    }
+    #Nav{
+        font-size: 170%;
+       list-style-type: none;
+       margin: 10px;
+       padding: 5px;
+       overflow: hidden;
+       font-weight: normal;
+       color: #A0522D;
+       background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/03/vintage-backgrounds-17559-18119-hd-wallpapers.jpg);
+       background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+    }
+    #Nav1{
+        font-size: 170%;
+       list-style-type: none;
+       margin: 10px;
+       padding: 5px;
+       overflow: hidden;
+       font-weight: normal;
+       color: #A0522D;
+       background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/03/vintage-backgrounds-17559-18119-hd-wallpapers.jpg);
+       background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+    }
+    /*li{
+       display: inline;
+       float: left;
+    }
+    li a {
+       display: block;
+       border-radius: 8px;
+       color: white;
+       font-size: 20px;
+       text-decoration: none;
+       padding: 8px;
+       background-color: chocolate;
+       border-right: 1px solid white;
+       border-left: 1px solid white;
+       transition-duration: 0.3s;
+    }
+    li a:hover:not(.active) {
+       background-color: #A0522D;
+    }
+    .active{
+       background-color: #8B4513;
+    }*/
+    h2{
+        text-shadow: 2px 2px 5px crimson;
+        text-decoration: underline;
+    }
+    .styles{
+        text-decoration: none;
+        color: royalblue;
+    }
+    .styles:hover{
+        text-decoration: none;
+        color: red;
+    }
+    .sty{
+        color: crimson;
+        font-size: 16pt;
+        text-align: left;
+        text-decoration: underline;
+    }
+    .button{
+        transition-duration: 0.4s;
+        padding: 6px 10px;
+        background-color: white;
+        color: crimson;
+        text-decoration: none;
+        border: 2px solid chocolate;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .button:hover{
+        background-color: black;
+        color: crimson;
+    }
+</style>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Swift</title>
+<link href="jsstyle.css" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Artifika' rel='stylesheet'>
+<style>
+	body{
+        background-image: url(https://wonderfulengineering.com/wp-content/uploads/2014/09/white-wallpapers-33.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: 'Artifika';
+        font-size: 100%;
+        text-align: center;
+        color: black;
+    }
+</style>
+<script type="text/javascript">
+		function check() {
+            var pas1 = document.getElementById('pass');
+            var pas2 = document.getElementById('pass2');
+ 	 		if ( pas1.value != pas2.value) {
+ 	 			alert("The passwords must match!!");
+ 	 			return false;
+  		    }
+  	    }
+  	    function add23(){
+  	    	if(document.querySelector("#same").checked){
+		        var name=document.querySelector("#add").value;
+		        document.querySelector("#add2").value=name;
+	        }
+	        else{
+		         document.querySelector("#add2").value="";
+	        }
+        }
+        function yesnocheck(){
+            if (document.getElementById('yescheck').checked){
+                document.getElementById('ifNo').style.display = 'block';
+            }
+            else{
+            document.getElementById('ifNo').style.display = 'none';
+            }
+        }
+</script>
+</head>
+
+<body>
+	<ul>
+        <li><a href="Form.html " class="active">Home</a></li>
+        <li><a href="#Privacy">Privacy Policy</a></li>
+        <li><a href="#About">About</a></li>
+        <li style="float: right;"><a href="Contact.html">Contact</a></li>
+    </ul><br>
+	<h1>Swift<sup>&reg;</sup></h1><br>
+	
+	<form>
+		<br><br><br><br><br><br><br>
+		<h5>*Please fill the required fields with the best of Information*</h5>
+		<h6><b>Swift's Goal</b> : "Speed is very important for winning, if you use it at the right time."</h6>
+		<fieldset>
+			<legend>Personal Information</legend>
+		<label for="name">Name : </label>
+		<input type="name" id="name" size="50" name="name" placeholder="IN BLOCK LETTERS"><br/><br/>
+		<label for="email">Email : <input type="email" size="50" name="email" placeholder="abc@gmail.com" required></label><br/><br/>
+		<label for="password">Password : <input type="password" pattern=".{8,}" title="Eight or more characters, *must contain a capital letter and a special symbol" name="pass" id="pass" required></label><br><br>
+		<label for="password2">Confirm Password : <input type="password" name="pass" id="pass2" onchange="check()"></label><br><br>
+		<label for="birth">BirthDate : 
+		<input type="date" id="birth" value="birth"></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<label for="Gender">Gender :
+        <label for="Male">
+            <input type="radio" id="Male" name="Gender" value="Male" >Male</label>
+        <label for="Female">
+            <input type="radio" id="Female" name="Gender" value="Female">Female</label>
+        <label for="Others">
+            <input type="radio" id="Others" name="Gender" value="Others">Other</label>
+        </label><br><br>
+		<label>Phone Number : <input type="number" name="zip" placeholder="+91" required></label><br/><br/>
+		<label for="address">Residential Address : <input type="address" size="100" name="address" id="add" required></label><br><br>
+		<input type="checkbox" id="same" name="same" onchange="add23()"/>
+		<label for = "same" style="font-size: 10pt">Same as above</label><br><br>
+		<label for="address">Correspondance Address : <input type="address" size="94" name="address" id="add2" required></label><br><br>
+		<label for="city">City : <select id="city" name="city" required>
+        <option value="Select">--Select--</option>
+        <option value="Noida">Noida</option>
+        <option value="Greater Noida">Greater Noida</option>
+        <option value="Lucknow">Lucknow</option>
+        <option value="Prayagraj">Prayagraj</option>
+        </select>
+        </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="state">State : <select id="state" name="state" required>
+        <option value="Select">--Select--</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="New Delhi">New Delhi</option>
+        </select>
+        </label></fieldset><br><br>
+        <fieldset>
+        	<legend>Queries Section</legend>
+        	<p>Let us know your problem : </p>
+        	<textarea style="font-family: Artifika; border: 1px solid red;" rows="5" cols="40" placeholder="Enter here..."></textarea>
+		<p>Any further questions : 
+        <label><input type="radio" onclick="yesnocheck();" name="yesno" id="yescheck">Yes</label>
+        <label><input type="radio" onclick="yesnocheck();" name="yesno" id="nocheck">No<br></label>
+        <div id="ifNo" style="display: none;">How can we help :
+        <input type="text" name="yes" id="yes"></div>
+        </p><br>
+        <label><input type="checkbox" name="privacy policy" required>I agree to the terms and conditions.*</label></fieldset><br><br>
+		<button id="button" type="submit" value="Submit">Submit</button></form>
+		<address>
+        &copy; Swift. All Rights Reserved. India.<br>
+        Created by <strong>Tushar Srivastava</strong><br>
+        655A/4/583, D-11, S.B.I. Colony, Gayatri Puram<br>
+        Rama Hospital Road, Kursi Road<br>
+        Lucknow, Uttar pradesh<br>
+        India, 226022
+    </address>
+    <br>
+</body>
+</html>
